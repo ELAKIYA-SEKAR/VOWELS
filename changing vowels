@@ -1,0 +1,13 @@
+word=input("Enter a string:")
+#vowels=["a","A","e","i","o","u","I","O","U"]
+translation=""
+print(word)
+print("vowels-->*")
+print("-----------)
+for letter in word:
+    #if n in vow:
+    if letter in "AEIOUaeiou":
+        translation+="*"
+    else:
+        translation+=letter
+print(translation)
